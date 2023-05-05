@@ -1,3 +1,6 @@
+var sayMyName = function (name) {
+	alert('My name is: ' +name)
+}
 	console.log('hello there');
 
 	var car = {
