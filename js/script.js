@@ -1,4 +1,4 @@
-// dev environment
+	// dev environment 
 var sayMyName = function (name) {
 	alert('My name is: ' +name)
 }
@@ -6,7 +6,13 @@ var sayMyName = function (name) {
 
 var doCoolStuff =function(){
 	// changing class name
-	document.getElementById('cool').className = 'cool red';
+	var currentClassName = document.getElementById('cool').className;
+
+	if (currentClassName == 'cool') {document.getElementById('cool').className = 'cool red';
+	
+	} else {document.getElementById('cool').className = 'cool';
+	}
+
 }
 
 	console.log('hello there');
